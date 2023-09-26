@@ -24,6 +24,7 @@ func main() {
 		fmt.Println("Hi, Adi")
 	}
 
+	//switch without tanda kondisi
 	length2 := len(name)
 	switch {
 	case length2 > 4:

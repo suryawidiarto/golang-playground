@@ -1,0 +1,42 @@
+notes package
+//string function
+https://pkg.go.dev/strings
+
+//string conversion
+https://pkg.go.dev/strconv
+
+//math calculation
+https://pkg.go.dev/math
+
+//double linkedlist 
+//double linkedlist -> have previous and next
+//linkedlist -> only have next
+//didnt have index
+https://pkg.go.dev/container/list
+
+//circular list
+//linkedlist with last data will Next() to first data
+//or first data will Back() to last data
+https://pkg.go.dev/container/ring
+
+//sort function
+https://pkg.go.dev/sort
+
+//time function
+https://pkg.go.dev/time
+
+//package reflect
+https://pkg.go.dev/reflect
+
+//regex
+https://pkg.go.dev/regexp
+
+
+notes for format int in go
+
+base:
+
+2 -> binary
+8 -> octal
+10 -> decimal
+16 -> hexadecimal

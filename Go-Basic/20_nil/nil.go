@@ -1,0 +1,27 @@
+// nil can only be used on interface, function, map, slice, pointer, and channel
+
+package main
+
+import "fmt"
+
+func NewMap(name string) map[string]string {
+	if name == "" {
+		return nil
+	} else {
+		return map[string]string{
+			"name": name,
+		}
+	}
+}
+
+func main() {
+	var person map[string]string = nil
+	person = NewMap("")
+
+	if person == nil {
+		fmt.Println(person)
+		fmt.Println("Data Kosong")
+	} else {
+		fmt.Println(person)
+	}
+}

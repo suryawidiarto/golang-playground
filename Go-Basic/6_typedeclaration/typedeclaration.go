@@ -8,7 +8,7 @@ func main() {
 	type Married bool
 
 	var noKTPSurya NoKTP = "01823012398123"
-	var isMarried = false
+	var isMarried Married = false
 	fmt.Println(noKTPSurya)
 	fmt.Println(isMarried)
 }

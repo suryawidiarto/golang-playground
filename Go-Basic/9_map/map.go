@@ -21,6 +21,13 @@ func main() {
 	book["publisher"] = "S Media"
 
 	fmt.Println(book)
+	fmt.Println(len(book))
 	delete(book, "publisher")
 	fmt.Println(book)
+
+	book2 := make(map[int]string)
+	book2[200] = "Belajar Golang Galing"
+
+	fmt.Println(book2)
+
 }
